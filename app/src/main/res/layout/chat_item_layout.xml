@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<layout>
+<layout xmlns:tools="http://schemas.android.com/tools">
 
     <data>
 
@@ -65,9 +65,9 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1.5"
-                        android:text="@{chatModel.lastMessage,default=Nothing}"
+                        android:text="@{chatModel.lastMessage,default=``}"
                         android:textColor="@color/textColor"
-                        android:textSize="13dp"
+                        android:textSize="13sp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -79,7 +79,8 @@
                         android:text="@{chatModel.date ,default=Nothing}"
                         android:textColor="@color/textColor"
                         android:textSize="13dp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        />
 
                 </LinearLayout>
 

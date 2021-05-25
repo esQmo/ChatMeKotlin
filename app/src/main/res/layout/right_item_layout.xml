@@ -48,7 +48,7 @@
                 android:singleLine="false"
                 android:text="@{message.message}"
                 android:textColor="@color/black"
-                android:textSize="15dp"
+                android:textSize="15sp"
                 android:textStyle="bold"
                 android:visibility="@{message.type.equals(`text`)?View.VISIBLE:View.GONE}" />
 

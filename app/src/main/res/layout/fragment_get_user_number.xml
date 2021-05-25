@@ -25,7 +25,7 @@
         android:layout_marginTop="10dp"
         android:text="Verify your number"
         android:textColor="@color/colorAccent"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textStyle="bold" />
 
 
