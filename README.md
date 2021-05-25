@@ -1,3 +1,4 @@
 # ChatMeKotlin
-Add your own firebase database and connect it with this app other wise it will crash and don,t work properly so use you database to work perfectly.
-This project is only for help or to uderstand the code how it,s work
+Add your own Firebase database and connect it with this app otherwise it will crash and won't work. Because the fingerprint will no match. Use your own setup.
+
+This project is only to help understand how to create a chat application which uses Firebase as backend.
